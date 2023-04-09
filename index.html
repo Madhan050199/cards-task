@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+<title>Cards</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:wght@300&family=Raleway:wght@500&display=swap" rel="stylesheet">
+<style>
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+.flex{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:100%;
+}
+.main_container{
+background-image:url(images/background.jpg);
+height:600px;
+width:100%;
+background-size:100%;
+opacity:0.3;
+}
+
+.container div[class*="sub"]{
+width:301px;
+height:460px;
+background-color:white;
+box-shadow:3px 3px 5px black;
+border-radius:10px;
+}
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+bottom:523px;
+gap:18px;
+}
+#image img{
+width:301px;
+height:230px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+.icon1{
+border:5px solid white;
+border-radius:5px;
+width:60px;
+height:60px;
+background-color:#EA5A07;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.icon1 img{
+
+width:40px;
+height:40px;
+padding:5px;
+}
+.icon2{
+border:5px solid white;
+border-radius:5px;
+width:60px;
+height:60px;
+background-color:#EA5A07;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.icon2 img{
+width:40px;
+height:40px;
+padding:5px;
+}
+.icon3{
+border:5px solid white;
+border-radius:5px;
+width:60px;
+height:60px;
+background-color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.icon3 img{
+width:40px;
+height:40px;
+padding:5px;
+}
+.flex-icon{
+display:flex;
+justify-content:center;
+position:relative;
+bottom:32px;
+}
+[class*="content"]{
+position:relative;
+bottom:18px;
+font-family: 'Poppins', sans-serif;
+}
+[class*="content"] p{
+font-size:14px;
+padding:2px 22px;
+}
+[class*="content"] h2{
+text-align:center;
+margin-bottom:8px;
+}
+</style>
+<body>
+<div class="flex">
+<div class="main_container">
+</div>
+<div class="container">
+<div class="sub_container1">
+<div id="image">
+<img src="images/box-1.jpg" alt="box1">
+</div>
+<div class="flex-icon">
+<div class="icon1">
+<img src="images/monitor.png" alt="monitor">
+</div>
+</div>
+<div class="content1">
+<h2>Our Mission</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ever since the 1500s, when an unknown printer and scrambled it to make a type specimen book.</p>
+</div>
+</div>
+<div class="sub_container2">
+<div id="image">
+<img src="images/box-2.jpg" alt="box2">
+</div>
+<div class="flex-icon">
+<div class="icon2">
+<img src="images/date.png" alt="date">
+</div>
+</div>
+<div class="content2">
+<h2>Our Plan</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ever since the 1500s, when an unknown printer and scrambled it to make a type specimen book.</p>
+</div>
+</div>
+<div class="sub_container3">
+<div id="image">
+<img src="images/box-3.jpg" alt="flim">
+</div>
+<div class="flex-icon">
+<div class="icon3">
+<img src="images/flim.png" alt="flim">
+</div>
+</div>
+<div class="content3">
+<h2>Our Vision</h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ever since the 1500s, when an unknown printer and scrambled it to make a type specimen book.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
